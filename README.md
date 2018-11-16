@@ -7,8 +7,12 @@ Before You Start
 
 In order to keep things clean, make sure you setup a virtualenv for this project. That way, you may keep your OS separate from your executions.
 
-Suggested Setup:
-$ virtualenv -p python3 --no-site-packages <dir>
+Prep:</br>
+$ virtualenv -p python3 --no-site-packages <dir> </br>
+$ source <dir>/bin/activate </br>
+$ pip install --upgrade pip </br>
+$ pip install --upgrade virtualenv </br>
+$ pip install --upgrade ansible </br>
 
 
 Regarding The Scripts
