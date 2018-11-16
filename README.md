@@ -11,12 +11,15 @@ In order to keep things clean, make sure you setup a virtualenv for this project
 ------
 
 Install virtualenv and upgrade both virtualenv and pip:</br>
+
 $ virtualenv -p python3 --no-site-packages <i>dir</i> </br>
 $ source <i>dir</i>/bin/activate </br>
 $ pip install --upgrade pip </br>
 $ pip install --upgrade virtualenv </br>
 
+
 Once completed, install ansible within the virtualenv</br>
+
 $ pip install --upgrade ansible </br>
 
 
@@ -32,6 +35,4 @@ The scripts on this project will be updated to provide support to the following 
 4 Download This Project
 -----------------------
 
-Access your virtual environment</br>
-$ source <i>dir</i>/bin/activate</br>
-$ git 
+$ pip install git+git
