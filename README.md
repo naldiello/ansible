@@ -35,4 +35,4 @@ The scripts on this project will be updated to provide support to the following 
 4 Download This Project
 -----------------------
 
-$ pip install git+git
+$ git clone https://github.com/naldiello/ansible/
